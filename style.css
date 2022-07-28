@@ -3,11 +3,25 @@ h1{
 }
 
 body{
-    color: brown;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     background-color: aquamarine;
+    font-size: 16px;
+    margin: 30px 20px;
+    padding: 0;
+
 }
 
-p{
-    color: black;
+.container{
+    width:70%;
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid black;
+    margin: 0 auto;
 }
+
+.container p{
+    font-size: 20px;
+}
+
+.container h1{font-size: 30px;}
